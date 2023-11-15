@@ -1,37 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import button from 'button';
 
 
-
-
-export default function Blog() {
+export default function MyApp() {
   return (
-    <>
-      <Post title="An update" body="It's been a while since I posted..." />
-      <Post title="My new blog" body="I am starting a new blog!" />
-    </>
-  )
-}
-
-function Post({ title, body }) {
-  return (
-    <>
-      <PostTitle title={title} />
-      <PostBody body={body} />
-    </>
+    <div>
+      <h1>Welcome to my app</h1>
+      <MyButton />
+    </div>
   );
 }
-
-function PostTitle({ title }) {
-  return <h1>{title}</h1>
-}
-
-function PostBody({ body }) {
-  return (
-    <article>
-      <p>{body}</p>
-    </article>
-  );
-}
-
-export default App;
