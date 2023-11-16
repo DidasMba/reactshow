@@ -5,8 +5,13 @@ import './App.css';
 
 export default function MyApp() {
   return (
-   <img 
+
+    <div>
+
+  <img 
    src="https://i.imgur.com/MK3eW3Am.jpg"
    alt='trey' />
+    </div>
+   
   );
 }
