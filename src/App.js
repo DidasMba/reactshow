@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import button from 'button';
+
 
 
 export default function MyApp() {
   return (
-    <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
-    </div>
+   <img 
+   src="https://i.imgur.com/MK3eW3Am.jpg"
+   alt='trey' />
   );
 }
