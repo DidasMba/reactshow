@@ -3,7 +3,7 @@ import './App.css';
 
 
 
-export default function MyApp() {
+export default function Profile() {
   return (
 
     <div>
@@ -13,5 +13,16 @@ export default function MyApp() {
    alt='trey' />
     </div>
    
+  );
+}
+
+export default function Gallery(){
+  return (
+     <section>
+      <h1> AMazing scientifics</h1>
+      <Profile/>
+      <Profile/>
+      
+     </section>
   );
 }
